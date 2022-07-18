@@ -24,15 +24,15 @@ class Highlight {
           image: "assets/Packages-01.jpg",
         ),
         Highlight(
-          name: "Packages",
+          name: "Quotes",
           image: "assets/Quotes.jpg",
         ),
         Highlight(
-          name: "Packages",
+          name: "Resume",
           image: "assets/Nemone kar-01.jpg",
         ),
         Highlight(
-          name: "Packages",
+          name: "Learn Flutter",
           image: "assets/Learn-01.jpg",
         ),
       ];
