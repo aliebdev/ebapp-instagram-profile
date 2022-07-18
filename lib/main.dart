@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'main/main_screen.dart';
 
@@ -14,6 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '@eb.app Instragram Profile',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        textTheme: GoogleFonts.robotoTextTheme(),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          foregroundColor: Colors.black,
+          elevation: 0,
+        ),
+      ),
       home: const MainScreen(),
     );
   }
